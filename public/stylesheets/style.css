@@ -33,9 +33,18 @@ html {
             html body header nav ul li a {
               text-decoration: none;
               color: inherit; }
+    html body main {
+      margin: 0 auto;
+      width: 100%; }
+      html body main > h1 {
+        margin: 0 auto;
+        width: 80%; }
+      html body main section {
+        margin: 0 auto;
+        width: 80%; }
     html body main#portfolio ul#portfolio-gallery {
       margin: 0 auto;
-      width: 80%;
+      width: 100%;
       overflow: auto; }
       html body main#portfolio ul#portfolio-gallery li {
         float: left;

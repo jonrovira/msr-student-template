@@ -50,16 +50,23 @@ html {
 			}
 		}
 		main {
+			margin: 0 auto;
+			width: 100%;
 
 			> h1 {
-
+				margin: 0 auto;
+				width: 80%;
+			}
+			section {
+				margin: 0 auto;
+				width: 80%;
 			}
 		}
 		main#portfolio {
 
 			ul#portfolio-gallery {
 				margin: 0 auto;
-				width: 80%;
+				width: 100%;
 				overflow: auto;
 
 				li {
