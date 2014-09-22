@@ -1,0 +1,98 @@
+/* Variables */
+$font-stack: Arial, Helvetica, sans-serif;
+
+/* Templating */
+html, body, div, span, h1, h2, h3, h4,
+h5, h6, p, a, img, i, ol, ul, li, form,
+label, table, caption, {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+html {
+	width: 100%;
+	font-family: $font-stack; 
+
+	body {
+
+		/* Header */
+		header {
+			width: 100%;
+			background-color: #bbb;
+
+			nav {
+				margin: 0 auto;
+				padding: 10px 0;
+				width: 80%;
+				overflow: auto;
+
+				h1 {
+					float: left;
+					font-size: 16px;
+				}
+				ul {
+					float: right;
+					list-style: none;
+
+					li {
+						float: left;
+						width: 100px;
+						text-align: center;
+
+						a {
+							text-decoration: none;
+							color: inherit;
+						}
+					}
+				}
+			}
+		}
+		main {
+
+			> h1 {
+
+			}
+		}
+		main#portfolio {
+
+			ul#portfolio-gallery {
+				margin: 0 auto;
+				width: 80%;
+				overflow: auto;
+
+				li {
+					float: left;
+					width: calc(100% / 3);
+					list-style: none;
+					text-align: center;
+
+					a {
+						color: inherit;
+						text-decoration: none;
+					}
+				}
+			}
+		}
+		/* Footer */
+		footer {
+			width: 100%;
+			background-color: #bbb;
+
+			ul {
+				margin: 0 auto;
+				padding: 10px 0;
+				width: 80%;
+				overflow: auto;
+				list-style: none;
+
+				li {
+					float: left;
+					width: calc(100% / 3);
+					text-align: center;
+				}
+			}
+		}
+	}
+}
