@@ -24,7 +24,7 @@ html {
 
 			nav {
 				margin: 0 auto;
-				padding: 10px 0;
+				padding: 20px 0;
 				width: 80%;
 				overflow: auto;
 
@@ -53,8 +53,8 @@ html {
 			margin: 0 auto;
 			width: 100%;
 
-			> h1 {
-				margin: 0 auto;
+			> h1.page-header {
+				margin: 20px auto 10px;
 				width: 80%;
 			}
 			section {
@@ -71,14 +71,29 @@ html {
 
 				li {
 					float: left;
-					width: calc(100% / 3);
+					margin-bottom: 20px;
+					width: calc((100% - 46px) / 3); // 20px margin, 6px of border
 					list-style: none;
 					text-align: center;
+					border: 1px solid #bbb;
+					border-radius: 3px;
 
 					a {
 						color: inherit;
 						text-decoration: none;
+
+						img {
+							width: 100%;
+							border-radius: 3px 3px 0 0;
+						}
+						span {
+							display: block;
+							padding: 15px;
+						}
 					}
+				}
+				li:not(:nth-child(3n)) {
+					margin-right: 20px;
 				}
 			}
 		}

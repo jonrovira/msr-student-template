@@ -17,7 +17,7 @@ html {
       background-color: #bbb; }
       html body header nav {
         margin: 0 auto;
-        padding: 10px 0;
+        padding: 20px 0;
         width: 80%;
         overflow: auto; }
         html body header nav h1 {
@@ -36,8 +36,8 @@ html {
     html body main {
       margin: 0 auto;
       width: 100%; }
-      html body main > h1 {
-        margin: 0 auto;
+      html body main > h1.page-header {
+        margin: 20px auto 10px;
         width: 80%; }
       html body main section {
         margin: 0 auto;
@@ -48,12 +48,23 @@ html {
       overflow: auto; }
       html body main#portfolio ul#portfolio-gallery li {
         float: left;
-        width: calc(100% / 3);
+        margin-bottom: 20px;
+        width: calc((100% - 46px) / 3);
         list-style: none;
-        text-align: center; }
+        text-align: center;
+        border: 1px solid #bbb;
+        border-radius: 3px; }
         html body main#portfolio ul#portfolio-gallery li a {
           color: inherit;
           text-decoration: none; }
+          html body main#portfolio ul#portfolio-gallery li a img {
+            width: 100%;
+            border-radius: 3px 3px 0 0; }
+          html body main#portfolio ul#portfolio-gallery li a span {
+            display: block;
+            padding: 15px; }
+      html body main#portfolio ul#portfolio-gallery li:not(:nth-child(3n)) {
+        margin-right: 20px; }
     html body footer {
       width: 100%;
       background-color: #bbb; }
