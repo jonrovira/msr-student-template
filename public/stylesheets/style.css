@@ -20,9 +20,10 @@ html {
         padding: 20px 0;
         width: 80%;
         overflow: auto; }
-        html body header nav h1 {
+        html body header nav a h1 {
           float: left;
-          font-size: 16px; }
+          font-size: 16px;
+          color: initial; }
         html body header nav ul {
           float: right;
           list-style: none; }
@@ -49,7 +50,7 @@ html {
       html body main#portfolio ul#portfolio-gallery li {
         float: left;
         margin-bottom: 20px;
-        width: calc((100% - 46px) / 3);
+        width: calc((100% - 68px) / 4);
         list-style: none;
         text-align: center;
         border: 1px solid #bbb;
@@ -64,9 +65,10 @@ html {
             display: block;
             padding: 15px;
             font-size: 16px; }
-      html body main#portfolio ul#portfolio-gallery li:not(:nth-child(3n)) {
+      html body main#portfolio ul#portfolio-gallery li:not(:nth-child(4n)) {
         margin-right: 20px; }
     html body footer {
+      margin-top: 40px;
       width: 100%;
       background-color: #bbb; }
       html body footer ul {

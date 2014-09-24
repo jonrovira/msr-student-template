@@ -28,9 +28,12 @@ html {
 				width: 80%;
 				overflow: auto;
 
-				h1 {
-					float: left;
-					font-size: 16px;
+				a {
+					h1 {
+						float: left;
+						font-size: 16px;
+						color: initial;
+					}
 				}
 				ul {
 					float: right;
@@ -72,7 +75,7 @@ html {
 				li {
 					float: left;
 					margin-bottom: 20px;
-					width: calc((100% - 46px) / 3); // 20px margin, 6px of border
+					width: calc((100% - 68px) / 4); // 20px margin, 6px of border
 					list-style: none;
 					text-align: center;
 					border: 1px solid #bbb;
@@ -93,13 +96,14 @@ html {
 						}
 					}
 				}
-				li:not(:nth-child(3n)) {
+				li:not(:nth-child(4n)) {
 					margin-right: 20px;
 				}
 			}
 		}
 		/* Footer */
 		footer {
+			margin-top: 40px;
 			width: 100%;
 			background-color: #bbb;
 
