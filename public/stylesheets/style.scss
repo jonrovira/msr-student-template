@@ -20,7 +20,8 @@ html {
 		/* Header */
 		header {
 			width: 100%;
-			background-color: #bbb;
+			background-color: #222;
+			color: #fff;
 
 			nav {
 				margin: 0 auto;
@@ -28,11 +29,13 @@ html {
 				width: 80%;
 				overflow: auto;
 
-				a {
+				> a {
+					color: inherit;
+
 					h1 {
 						float: left;
 						font-size: 16px;
-						color: initial;
+						color: inherit;
 					}
 				}
 				ul {
@@ -52,6 +55,7 @@ html {
 				}
 			}
 		}
+		/* General main template */
 		main {
 			margin: 0 auto;
 			width: 100%;
@@ -65,6 +69,7 @@ html {
 				width: 80%;
 			}
 		}
+		/* Portfolio page */
 		main#portfolio {
 
 			ul#portfolio-gallery {
@@ -101,11 +106,85 @@ html {
 				}
 			}
 		}
+		/* About page */
+		main#about {
+
+			section#about-content {
+				overflow: auto;
+
+				img#portrait {
+					float: right;
+					margin-bottom: 25px;
+					margin-left: 25px;
+					width: 280px;
+				}
+				h1 { margin: 0.67em 0; font-size: 2em; }
+				h2 { margin: 0.75em 0; }
+				h3 { margin: 0.83em 0; }
+				h3, p, ul, form, ol { margin: 1.12em 0 }
+				h5 { margin: 1.5em 0 }
+				h6 { margin: 1.67em 0 }
+				ol, ul { margin-left: 40px; }
+			}
+		}
+		/* Contact page */
+		main#contact {
+
+			section#contact-content {
+				overflow: auto;
+
+				img#contact-image {
+					float: right;
+					margin-bottom: 25px;
+					margin-left: 25px;
+					width: 280px;
+				}
+
+				h1 { margin: 0.67em 0; font-size: 2em; }
+				h2 { margin: 0.75em 0; }
+				h3 { margin: 0.83em 0; }
+				h3, p, ul, form, ol { margin: 1.12em 0 }
+				h5 { margin: 1.5em 0 }
+				h6 { margin: 1.67em 0 }
+				ol, ul { margin-left: 40px; }	
+			}
+		}
+		/* Project page template */
+		main.project {
+
+			section#contact-content {
+				margin-top: 20px;
+				overflow: auto;
+
+				img#project-image {
+					float: right;
+					margin-bottom: 25px;
+					margin-left: 25px;
+					width: 280px;
+				}
+				h1#project-title {
+					margin: 0;
+				}
+				h2#project-date {
+					margin-top: 5px;
+					font-size: 16px;
+				}
+
+				h1 { margin: 0.67em 0; font-size: 2em; }
+				h2 { margin: 0.75em 0; }
+				h3 { margin: 0.83em 0; }
+				h3, p, ul, form, ol { margin: 1.12em 0 }
+				h5 { margin: 1.5em 0 }
+				h6 { margin: 1.67em 0 }
+				ol, ul { margin-left: 40px; }	
+			}
+		}
 		/* Footer */
 		footer {
 			margin-top: 40px;
 			width: 100%;
-			background-color: #bbb;
+			background-color: #222;
+			color: #fff;
 
 			ul {
 				margin: 0 auto;

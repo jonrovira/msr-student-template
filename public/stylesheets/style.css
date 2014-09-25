@@ -11,19 +11,27 @@ html {
   font-family: Arial, Helvetica, sans-serif; }
   html body {
     /* Header */
+    /* General main template */
+    /* Portfolio page */
+    /* About page */
+    /* Contact page */
+    /* Project page template */
     /* Footer */ }
     html body header {
       width: 100%;
-      background-color: #bbb; }
+      background-color: #222;
+      color: #fff; }
       html body header nav {
         margin: 0 auto;
         padding: 20px 0;
         width: 80%;
         overflow: auto; }
-        html body header nav a h1 {
-          float: left;
-          font-size: 16px;
-          color: initial; }
+        html body header nav > a {
+          color: inherit; }
+          html body header nav > a h1 {
+            float: left;
+            font-size: 16px;
+            color: inherit; }
         html body header nav ul {
           float: right;
           list-style: none; }
@@ -67,10 +75,83 @@ html {
             font-size: 16px; }
       html body main#portfolio ul#portfolio-gallery li:not(:nth-child(4n)) {
         margin-right: 20px; }
+    html body main#about section#about-content {
+      overflow: auto; }
+      html body main#about section#about-content img#portrait {
+        float: right;
+        margin-bottom: 25px;
+        margin-left: 25px;
+        width: 280px; }
+      html body main#about section#about-content h1 {
+        margin: 0.67em 0;
+        font-size: 2em; }
+      html body main#about section#about-content h2 {
+        margin: 0.75em 0; }
+      html body main#about section#about-content h3 {
+        margin: 0.83em 0; }
+      html body main#about section#about-content h3, html body main#about section#about-content p, html body main#about section#about-content ul, html body main#about section#about-content form, html body main#about section#about-content ol {
+        margin: 1.12em 0; }
+      html body main#about section#about-content h5 {
+        margin: 1.5em 0; }
+      html body main#about section#about-content h6 {
+        margin: 1.67em 0; }
+      html body main#about section#about-content ol, html body main#about section#about-content ul {
+        margin-left: 40px; }
+    html body main#contact section#contact-content {
+      overflow: auto; }
+      html body main#contact section#contact-content img#contact-image {
+        float: right;
+        margin-bottom: 25px;
+        margin-left: 25px;
+        width: 280px; }
+      html body main#contact section#contact-content h1 {
+        margin: 0.67em 0;
+        font-size: 2em; }
+      html body main#contact section#contact-content h2 {
+        margin: 0.75em 0; }
+      html body main#contact section#contact-content h3 {
+        margin: 0.83em 0; }
+      html body main#contact section#contact-content h3, html body main#contact section#contact-content p, html body main#contact section#contact-content ul, html body main#contact section#contact-content form, html body main#contact section#contact-content ol {
+        margin: 1.12em 0; }
+      html body main#contact section#contact-content h5 {
+        margin: 1.5em 0; }
+      html body main#contact section#contact-content h6 {
+        margin: 1.67em 0; }
+      html body main#contact section#contact-content ol, html body main#contact section#contact-content ul {
+        margin-left: 40px; }
+    html body main.project section#contact-content {
+      margin-top: 20px;
+      overflow: auto; }
+      html body main.project section#contact-content img#project-image {
+        float: right;
+        margin-bottom: 25px;
+        margin-left: 25px;
+        width: 280px; }
+      html body main.project section#contact-content h1#project-title {
+        margin: 0; }
+      html body main.project section#contact-content h2#project-date {
+        margin-top: 5px;
+        font-size: 16px; }
+      html body main.project section#contact-content h1 {
+        margin: 0.67em 0;
+        font-size: 2em; }
+      html body main.project section#contact-content h2 {
+        margin: 0.75em 0; }
+      html body main.project section#contact-content h3 {
+        margin: 0.83em 0; }
+      html body main.project section#contact-content h3, html body main.project section#contact-content p, html body main.project section#contact-content ul, html body main.project section#contact-content form, html body main.project section#contact-content ol {
+        margin: 1.12em 0; }
+      html body main.project section#contact-content h5 {
+        margin: 1.5em 0; }
+      html body main.project section#contact-content h6 {
+        margin: 1.67em 0; }
+      html body main.project section#contact-content ol, html body main.project section#contact-content ul {
+        margin-left: 40px; }
     html body footer {
       margin-top: 40px;
       width: 100%;
-      background-color: #bbb; }
+      background-color: #222;
+      color: #fff; }
       html body footer ul {
         margin: 0 auto;
         padding: 10px 0;
