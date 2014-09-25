@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: main
+title: Portfolio
 ---
 
 <main id="portfolio">
@@ -9,7 +10,7 @@ layout: default
 			{% for project in site.projects %}
 				<li>
 					<a href="{{ site.baseurl }}{{ project.url }}">
-						<img src="http://unsplash.it/400/300?random">
+						<img src="{{ project.image }}">
 						<h2>{{ project.title }}</h2>
 					</a>
 				</li>
